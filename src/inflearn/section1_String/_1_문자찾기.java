@@ -8,11 +8,19 @@ public class _1_문자찾기 {
         str = str.toLowerCase();
         t = Character.toLowerCase(t);
 
-//        for (int i = 0 ; i < str.length() ; i++) {
-//            if (str.charAt(i) == t) {
-//                answer++;
-//            }
-//        }
+        for (int i = 0 ; i < str.length() ; i++) {
+            if (str.charAt(i) == t) {
+                answer++;
+            }
+        }
+
+        return answer;
+    }
+
+    public int solution_2(String str, char t) {
+        int answer = 0;
+        str = str.toLowerCase();
+        t = Character.toLowerCase(t);
 
         for (char x : str.toCharArray()) {
             if (x == t) {
