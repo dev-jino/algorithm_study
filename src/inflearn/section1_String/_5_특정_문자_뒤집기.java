@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _5_특정_문자_뒤집기 {
     public String solution(String str) {
-        String answer;
+        String answer = "";
 
         char[] c = str.toCharArray();
         int lt = 0;
